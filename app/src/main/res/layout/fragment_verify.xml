@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="@dimen/padding">
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/pinEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textColor="@color/colorBlack"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/text_size"
+        tools:pinAnimationType="popIn|fromBottom|none"
+        tools:pinBackgroundDrawable="@drawable/custom_bg_pin"
+        tools:pinBackgroundIsSquare="true|false"
+        tools:pinCharacterMask="*"
+        tools:pinLineColors="@color/pin_line_colors"
+        tools:pinLineStroke="2dp"
+        tools:pinLineStrokeSelected="4dp"
+        tools:pinSingleCharHint="#"
+        tools:pinTextBottomPadding="@dimen/space" />
+
+    <Button
+        android:id="@+id/btnResend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_bg_button_border_blue"
+        android:enabled="false"
+        android:text="@string/resend"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlue"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pinEntry" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/custom_bg_button_blue"
+        android:enabled="false"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnResend" />
+</android.support.constraint.ConstraintLayout>

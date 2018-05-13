@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "421451701356",
+    "firebase_url": "https://timtokt-cafad.firebaseio.com",
+    "project_id": "timtokt-cafad",
+    "storage_bucket": "timtokt-cafad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421451701356:android:769df902ed4c9ea4",
+        "android_client_info": {
+          "package_name": "org.kn.kotlin.timto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421451701356-rgqnt1g8na2vglsl90rm3fmdh43p09rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.kn.kotlin.timto",
+            "certificate_hash": "45a64748339227c6f4f890048622df30da21dc23"
+          }
+        },
+        {
+          "client_id": "421451701356-qqfo10r8i3k0isgqgbhq2740rbmcr53h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTbbEzBxilJCBHHhX6k68jWopZ-DsCKKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421451701356-qqfo10r8i3k0isgqgbhq2740rbmcr53h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
